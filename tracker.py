@@ -50,7 +50,6 @@ def exp_calc():
 def update_stats(Character):
     """Updates stats based on user input"""
 
-   
     while True:
         stat_to_update = input("\nWhich stat would you like to update? (health, mana, strength, agility, dexterity, done): ").lower()
         if(stat_to_update == 'done'):
@@ -89,7 +88,7 @@ if(os.path.exists(filename)):
     print(MC.get_status())
 else:
     MC = Character(
-        name = 'June',
+        name = 'character_name', #change to your character's name
         level = 1,
         health = 10,
         strength = 3,
