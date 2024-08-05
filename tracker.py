@@ -1,5 +1,6 @@
 """Gets information about monsters killed
-Returns and loads updated/saved stats"""
+Returns and loads updated/saved stats
+Made by @unearthlydeath on Github"""
 
 from stats import Character
 import os
