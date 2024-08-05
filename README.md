@@ -5,3 +5,4 @@ Chat didn't really give much useful code so I had to figure it out and I'm proud
 
 Anyways before using you should edit the attributes of your character, ie, changing the name, initial stats at level 1, exp needed to level up and so on.
 Enjoy!
+Oh and I also have no idea how to use github so send me a message if anything.
