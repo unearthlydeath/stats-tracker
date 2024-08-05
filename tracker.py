@@ -100,16 +100,21 @@ else:
         exp_next_level = 100)
 
 
-#updates the exp
-earned_exp = exp_calc()
-MC.update_exp(earned_exp)
+#starts the program
+enter = input("\nStart program (y/n)?: ")
+if (enter == 'n'):
+    print("Goodbye")
+else:
+    #updates the exp
+    earned_exp = exp_calc()
+    MC.update_exp(earned_exp)
 
-#updates the attributes
-update_stats(MC)
+    #updates the attributes
+    update_stats(MC)
 
-#print current stats
-status = MC.get_status()
-print(status)
+    #print current stats
+    status = MC.get_status()
+    print("\n",status)
 
-#save the stats
-MC.save_to_file(filename)
+    #save the stats
+    MC.save_to_file(filename)
