@@ -1,5 +1,6 @@
 """Class 'Character' that is basically the stats of the character
-Saves everything"""
+Saves everything
+Made by @unearthlydeath on Github"""
 
 import json
 
